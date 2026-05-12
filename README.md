@@ -1,6 +1,6 @@
 # vue3-safe-img
 
-> [繁體中文](./README.zh-TW.md) · [Live demo](https://hsiangfeng.github.io/vue3-safe-img/)
+> [繁體中文](./README.zh-TW.md) · [Live demo](https://israynotarray.com/vue3-safe-img/)
 
 A small Vue 3 plugin for the broken-image problem. Picks up an `<img>` (or wraps
 one) and gives it a fallback chain, retry-with-delay, a shared failed-URL cache,
