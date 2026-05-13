@@ -1,5 +1,10 @@
 # vue3-safe-img
 
+[![npm version](https://img.shields.io/npm/v/vue3-safe-img.svg)](https://www.npmjs.com/package/vue3-safe-img)
+[![npm downloads](https://img.shields.io/npm/dm/vue3-safe-img.svg)](https://www.npmjs.com/package/vue3-safe-img)
+
+![vue3-safe-img 封面圖](./assets/vue3-safe-img-cover.png)
+
 > [English](./README.md) · [線上範例](https://israynotarray.com/vue3-safe-img/)
 
 處理「圖片壞掉」這件事的小型 Vue 3 套件。對既有的 `<img>` 補上 fallback chain、自動重試、共用的失敗 URL 快取，並提供可選的 YouTube 風格模糊背景，圖片比例跟容器不一致時自動填空白。

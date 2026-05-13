@@ -1,5 +1,10 @@
 # vue3-safe-img
 
+[![npm version](https://img.shields.io/npm/v/vue3-safe-img.svg)](https://www.npmjs.com/package/vue3-safe-img)
+[![npm downloads](https://img.shields.io/npm/dm/vue3-safe-img.svg)](https://www.npmjs.com/package/vue3-safe-img)
+
+![vue3-safe-img cover](./assets/vue3-safe-img-cover.png)
+
 > [繁體中文](./README.zh-TW.md) · [Live demo](https://israynotarray.com/vue3-safe-img/)
 
 A small Vue 3 plugin for the broken-image problem. Picks up an `<img>` (or wraps
