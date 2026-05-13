@@ -193,6 +193,13 @@ interface ErrorInfo {
 
 元件跟 composable 把 DOM 操作放在 `onMounted` 之後，所以 SSR 環境下不會炸。Server-side render 出來會是骨架狀態的 wrapper，hydration 後才開始載圖。
 
+## 贊助
+
+如果這個套件有幫到你，可以從這邊請我喝杯咖啡：
+
+- [Buy Me a Coffee](https://buymeacoffee.com/israynotarray)
+- [Portaly 台灣贊助](https://portaly.cc/israynotarray/support)
+
 ## 授權
 
 MIT

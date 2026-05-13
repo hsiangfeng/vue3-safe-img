@@ -212,6 +212,13 @@ The component and composable defer DOM work to `onMounted`, so they're safe on
 the server. The server-rendered output is the layered wrapper in its skeleton
 state; the image loads after hydration.
 
+## Sponsor
+
+If this package saved you some time, feel free to buy me a coffee:
+
+- [Buy Me a Coffee](https://buymeacoffee.com/israynotarray)
+- [Portaly (Taiwan)](https://portaly.cc/israynotarray/support)
+
 ## License
 
 MIT

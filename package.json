@@ -12,6 +12,16 @@
   "bugs": {
     "url": "https://github.com/hsiangfeng/vue3-safe-img/issues"
   },
+  "funding": [
+    {
+      "type": "buymeacoffee",
+      "url": "https://buymeacoffee.com/israynotarray"
+    },
+    {
+      "type": "portaly",
+      "url": "https://portaly.cc/israynotarray/support"
+    }
+  ],
   "engines": {
     "node": ">=18"
   },
