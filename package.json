@@ -1,6 +1,6 @@
 {
   "name": "vue3-safe-img",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue 3 image fallback with optional YouTube-style blurred backdrop. Ships a v-safe-img directive, a <SafeImg> component, and a useSafeImg composable.",
   "license": "MIT",
   "author": "hsiangfeng <israynotarray@gmail.com>",
