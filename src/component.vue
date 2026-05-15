@@ -126,6 +126,7 @@ const imgAttrs = computed(() => {
   position: relative;
   isolation: isolate;
   overflow: hidden;
+  display: grid;
   background-color: var(--vsi-bg, #e5e7eb);
   background-image: var(--vsi-image);
   background-size: cover;
@@ -144,9 +145,13 @@ const imgAttrs = computed(() => {
 
 .vsi-main {
   position: relative;
+  z-index: 1;
+  grid-area: 1 / 1;
   display: block;
   width: 100%;
   height: 100%;
+  min-width: 0;
+  min-height: 0;
   object-fit: contain;
   object-position: center;
 }
