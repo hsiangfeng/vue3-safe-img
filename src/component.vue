@@ -118,7 +118,7 @@ const imgAttrs = computed(() => {
   >
     <img v-if="displaySrc" class="vsi-main" :src="displaySrc" v-bind="imgAttrs" />
   </div>
-  <img v-else-if="displaySrc" :src="displaySrc" v-bind="rawAttrs" />
+  <img v-else-if="displaySrc" class="vsi-img" :src="displaySrc" v-bind="rawAttrs" />
 </template>
 
 <style>
@@ -127,6 +127,8 @@ const imgAttrs = computed(() => {
   isolation: isolate;
   overflow: hidden;
   display: grid;
+  width: 100%;
+  height: 100%;
   background-color: var(--vsi-bg, #e5e7eb);
   background-image: var(--vsi-image);
   background-size: cover;
@@ -138,6 +140,7 @@ const imgAttrs = computed(() => {
   content: '';
   position: absolute;
   inset: 0;
+  border-radius: inherit;
   backdrop-filter: blur(var(--vsi-blur, 20px));
   -webkit-backdrop-filter: blur(var(--vsi-blur, 20px));
   pointer-events: none;
@@ -154,5 +157,11 @@ const imgAttrs = computed(() => {
   min-height: 0;
   object-fit: contain;
   object-position: center;
+}
+
+.vsi-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 </style>
