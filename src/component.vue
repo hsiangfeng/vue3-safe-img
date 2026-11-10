@@ -139,7 +139,9 @@ const imgAttrs = computed(() => {
 .vsi-frame::before {
   content: '';
   position: absolute;
-  inset: 0;
+  /* 往外多蓋 1px：外框的位置或尺寸不是整數像素時，瀏覽器會把模糊範圍對齊到整數像素，
+     邊緣那一列就漏掉沒被模糊，露出一條清晰的底圖；多出去的部分由外框的 overflow: hidden 裁掉 */
+  inset: -1px;
   border-radius: inherit;
   /* -webkit- 一定要寫在前面：Lightning CSS（Vite 8 預設）遇到帶前綴的排在後面時，
      會把標準寫法刪掉，而 Chrome 不認 -webkit-backdrop-filter，模糊會整個消失 */
