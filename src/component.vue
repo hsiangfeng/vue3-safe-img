@@ -141,8 +141,10 @@ const imgAttrs = computed(() => {
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  backdrop-filter: blur(var(--vsi-blur, 20px));
+  /* -webkit- 一定要寫在前面：Lightning CSS（Vite 8 預設）遇到帶前綴的排在後面時，
+     會把標準寫法刪掉，而 Chrome 不認 -webkit-backdrop-filter，模糊會整個消失 */
   -webkit-backdrop-filter: blur(var(--vsi-blur, 20px));
+  backdrop-filter: blur(var(--vsi-blur, 20px));
   pointer-events: none;
 }
 
